@@ -4,6 +4,12 @@
  *
 */
 
+// var app = ng.module('app', ["ng.lodash"])
+//   // use in views, ng-repeat="x in _.range(3)"
+//   .run(function ($rootScope, _) {
+//      $rootScope._ = _;
+//   });
+
 (function (ng, _) {
   'use strict';
 
